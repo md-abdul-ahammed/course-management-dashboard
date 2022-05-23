@@ -1,0 +1,70 @@
+module.exports = {
+  mode: 'jit',
+  content: [
+    './public/**/*.{html,js}',
+    './components/**/*.{html,js}',
+    './src/**/*.{js,jsx,ts,tsx,vue}',
+  ],
+  theme: {
+    fontFamily: {
+      'dm-sans': ["'DM Sans'", 'sans-serif'],
+    },
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      white: '#ffffff',
+      'light-white': '#E5E5E5',
+      'medium-white': 'rgba(65, 65, 65, 0.5)',
+      ghost: '#9A9AA9',
+      black: '#000000',
+      'light-black': '#414141',
+      slate: '#222222',
+      solid: '#1C1C1C',
+      'light-slate': '#a894947a',
+      'medium-slate': '#616161',
+      gray: '#717171',
+      'light-gray': '#f2f2f2',
+      cloud: '#fafafb',
+      lavender: '#E3CEFA',
+
+      vizard: '#E9E8FF',
+      cyan: '#D0EFFF',
+      turquoise: '#D1F5F9',
+
+      violet: '#7D23E0',
+      'medium-violet': '#A24EFF',
+      'light-red': '#FBE9EA',
+      red: '#D32736',
+      blue: '#5B93FF',
+      'light-blue': '#EAF0FB',
+      indigo: '#605BFF',
+      'light-indigo': '#EBEAFB',
+      green: '#2B9943',
+      orange: '#FF8F6B',
+      'light-orange': '#FDEEEE',
+      'purple-main': '#7D23E0',
+      'grey-border': '#8D8D8D',
+      'desc-gray': '#414141',
+      deep_red: '#FF3A3A',
+      light_red: '#FF5070',
+      light_yellow: '#FFD130',
+      light_green: '#1CC24A',
+      deep_green: '#009E2B',
+    },
+
+    extend: {
+      boxShadow: {
+        '3xl': '0px 2px 40px rgba(125, 35, 224, 0.15)',
+        '4xl': ' 0px 0px 10px rgba(0, 0, 0, 0.15)',
+      },
+    },
+  },
+  backgroundImage: {
+    bubbles: "url('./src/assets/aboutus/new Vectors/circles.png')",
+  },
+  plugins: [],
+  important: true,
+  corePlugins: {
+    preflight: true,
+  },
+}

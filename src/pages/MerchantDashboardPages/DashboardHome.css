@@ -1,0 +1,21 @@
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background: #E5D3F9;
+    
+  }
+  ::-webkit-scrollbar-track {
+    background: #7D23E0;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #E5D3F9;
+    border-radius: 10px;
+  }
+
+
+  @media (min-width: 300px) and (max-width: 991px) {
+    .thin-scroll {
+      height: 100%!important;
+  
+    }
+  }

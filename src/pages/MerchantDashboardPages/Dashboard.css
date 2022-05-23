@@ -1,0 +1,23 @@
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap");
+
+.dashboard {
+  color: #414141;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.menu-item {
+    margin: 10px 0px;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 20px;
+    color: #7e7e7e;
+    cursor: pointer;
+  }
+  .menu-item:hover {
+    background-image: linear-gradient(to right, #9b4df473, #ffffffb5);
+    color: #7d23e0;
+    font-weight: 700;
+  }
+  

@@ -1,0 +1,64 @@
+.bg {
+    height: 90vh;
+}
+
+h1 {
+    line-height: 85px !important ;
+}
+
+
+::placeholder {
+    font-size:20px;
+}
+
+
+.input-container .one {
+    width: 45%;
+    border-right: 2px solid #DDDDDD
+}
+
+.input-container .two {
+    width: 55%;
+}
+
+
+@media screen and (max-width:768px) {
+    .bg {
+        max-height:70vh
+    }
+    h1 {
+        line-height: 40px !important;
+    }
+
+    .input-container input,
+    .input-courses  {
+        width:100%;
+    }
+    .input-container .one,
+    .input-container .two {
+        width: 100%; 
+    }
+    .input-container .one,
+    .input-container .two {
+        border:none;
+        background-color: #fff;
+        margin-top:10px;
+        padding: 15px;
+        border-radius: 8px;
+    }
+    ::placeholder {
+    font-size:16px;
+    }
+
+    @media screen and (min-width:1366px) {
+        .bg {
+            height: 88vh;
+        }
+    }
+
+    @media screen and (max-width:400px) {
+        .bg {
+            max-height:85vh;
+        }
+    }
+}

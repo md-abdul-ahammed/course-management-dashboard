@@ -1,0 +1,9 @@
+.scrollbar-thumb-blue-\39 00 {
+  --scrollbar-thumb: #7d23e0 !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,16 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px 0 70px;
+}
+
+@media screen and (max-width:768px) {
+    .nav-container {
+        justify-content: center;
+    }
+
+    .btn-container {
+        display: none;
+    }
+}

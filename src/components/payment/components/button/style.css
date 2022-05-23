@@ -1,0 +1,7 @@
+button {
+    box-shadow: 0px 8px 60px rgba(122, 129, 220, 0.15);
+}
+
+button:hover {
+    color: var(--color-five);
+}

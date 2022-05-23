@@ -1,0 +1,15 @@
+.achievementContainer .slick-arrow.slick-prev,
+.achievementContainer .slick-arrow.slick-next {
+  display: none;
+}
+.achievementContainer .slick-dots {
+  position: relative;
+  margin-bottom: 2rem;
+}
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+.slick-slider.slick-initialized > button {
+  display: none !important;
+}

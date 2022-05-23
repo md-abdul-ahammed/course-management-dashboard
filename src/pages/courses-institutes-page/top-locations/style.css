@@ -1,0 +1,18 @@
+.single {
+    transform: translateY(-40px);
+    width:28%;
+    margin:10px 0;
+    box-shadow: 0px 0px 30px -10px rgba(125, 35, 224, 0.2);
+    border:1px solid rgba(125, 35, 224, 0.15);
+}
+
+@media screen and (max-width:900px) {
+    .main {
+        flex-direction: column;
+        width:90%;
+        flex-wrap: nowrap;
+    }
+    .single {
+        width:95%;
+    }
+}

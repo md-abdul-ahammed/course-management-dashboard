@@ -1,0 +1,5 @@
+@import '../../../../../App.css';
+
+.change:hover {
+    color: var(--color-13)
+}
