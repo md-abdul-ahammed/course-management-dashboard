@@ -28,7 +28,7 @@ const InstituteRequests = () => {
               No institute requests are available now
             </div>
           ) : (
-            <div>
+            <>
               {adminInstitutes
                 ?.filter((data) => data.approval === 4)
                 .map((data, index) => (
@@ -72,12 +72,12 @@ const InstituteRequests = () => {
                         </span>
                       </div>
                       <div className="text-[18px] text-[#747474]">
-                        {data.description}
+                        {data.description.substring(0, 100)}
                       </div>
                     </div>
                   </div>
                 ))}
-            </div>
+            </>
           )}
         </div>
       )}
