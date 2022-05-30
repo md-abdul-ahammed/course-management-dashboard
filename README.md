@@ -1,10 +1,4 @@
-# Ostello India
-
-Visit [CONTRIBUTING.md](./CONTRIBUTING.md) for more information about development.
-
-## About the repository
-
-This repository acts as the **official react-sdk** for the frontend of the Official website of [Ostello India](https://www.ostello.co.in/). All the code or assets available in this repository are licensed under Ostello India and no third party is allowed to use them without the permission of the owner.
+# Making Admin Dashboard For Course Management
 
 ## Tech Stack
 
@@ -18,10 +12,8 @@ The current react-sdk uses the following tech stack for its frontend:
 | [React icons](https://feathericons.com/) | SVG Based, Lightweight, Great Customization, Syncs with react |
 | [concurrently](https://github.com/open-cli-tools/concurrently) |Run multiple commands concurrently. |
 
-For further information and usage, the developer is advised to refer the [CONTRIBUTING.md](./CONTRIBUTING.md) file and the official documentation of the tech stack mentioned.
+## Contact
 
-## Contact US
-
-Location: Ranchi, Jharkhand
-Email: care@ostello.co.in
-Mobile: +91-8271469630
+Location: Chittagong, Bangladesh
+Email: mdabdulahammed1@gmail.com
+Mobile: +880-1865763836
