@@ -5,14 +5,14 @@ import { host } from "../../util/constant/constant";
 import { makeDateFormat } from "../../util/util";
 
 const BlogCard = ({ data }) => {
-  const { title, imgurl, description, readtime, timestamp, id } = data;
+  const { title, image, description, readtime, timestamp, id } = data;
 
   const blogDate = makeDateFormat(timestamp);
 
   return (
     <div className="p-4 bg-white min-h-full rounded-[2.5rem] shadow-md">
       <div className="flex flex-col">
-        <img src="https://api.ostello.co.in/blogs/1651139805027.png" alt="" />
+        <img src={image.url} alt="" />
         <p className="text-[14px] pt-3 text-[#A0A0A0]">
           {blogDate} <span className="mx-1">l</span> {readtime} read
         </p>

@@ -8,7 +8,10 @@ import OwnerDetails from "./OwnerDetails";
 import Header from "../Header/Header";
 import { useNavigate, useParams } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { fetchAdminSingleInstitute, instituteApprove } from "../../redux/slices/adminInstitutesSlice";
+import {
+  fetchAdminSingleInstitute,
+  instituteApprove,
+} from "../../redux/slices/adminInstitutesSlice";
 
 const EditInstitute = () => {
   const { instituteId, pathLocation } = useParams();
@@ -48,10 +51,10 @@ const EditInstitute = () => {
       title: "Owner Details",
       component: <OwnerDetails handleChange={handleChange} />,
     },
-    {
-      title: "Your Services",
-      component: <YourServices handleChange={handleChange} />,
-    },
+    // {
+    //   title: "Your Services",
+    //   component: <YourServices handleChange={handleChange} />,
+    // },
   ];
 
   useEffect(() => {
@@ -63,8 +66,8 @@ const EditInstitute = () => {
     const updatedData = {
       id,
       approve: approval - Number(value),
-    }
-    dispatch(instituteApprove(updatedData))
+    };
+    dispatch(instituteApprove(updatedData));
   };
 
   return (

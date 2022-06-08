@@ -45,9 +45,7 @@ const ActiveEvents = () => {
               <div className="grid gap-10 md:grid-cols-2 grid-cols-1 lg:grid-cols-3">
                 {adminEvents.map((data, index) => (
                   <div key={index} className="relative">
-                    <Link to={`/adminDashboard/events/editEvent/${data.id}`}>
-                      <EventCard data={data} />
-                    </Link>
+                    <EventCard data={data} />
                     <div
                       onClick={() => handleDelete(data.id)}
                       className="absolute top-8 right-8 bg-white p-2.5 shadow-lg cursor-pointer rounded-full"

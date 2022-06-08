@@ -9,10 +9,11 @@ const ManageLocations = () => {
   const { adminLocations } = useSelector((state) => state.adminInstitutes);
   const [addLocation, setAddLocation] = useState(false);
   const { locations } = adminSingleInstitute;
+  console.log(locations);
 
   return (
     <div className="my-3">
-      {locations.length &&
+      {locations?.length &&
         locations.map((data, index) => (
           <div
             key={index}
@@ -24,11 +25,7 @@ const ManageLocations = () => {
             <textarea
               defaultValue={
                 data &&
-                `${JSON.parse(data).line1}, ${JSON.parse(data).line2}, ${
-                  JSON.parse(data).area
-                }, ${JSON.parse(data).city}, ${JSON.parse(data).state}- ${
-                  JSON.parse(data).pincode
-                }`
+                `${data.line1}, ${data.line2}, ${data.area}, ${data.city}, ${data.state}- ${data.pincode}`
               }
               readOnly
               rows="2"

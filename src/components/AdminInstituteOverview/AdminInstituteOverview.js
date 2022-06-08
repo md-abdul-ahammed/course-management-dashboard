@@ -52,10 +52,10 @@ const AdminInstituteOverview = () => {
       title: "Owner Details",
       component: <OwnerDetails handleChange={handleChange} />,
     },
-    {
-      title: "Your Services",
-      component: <YourServices handleChange={handleChange} />,
-    },
+    // {
+    //   title: "Your Services",
+    //   component: <YourServices handleChange={handleChange} />,
+    // },
     {
       title: "Manage Media",
       component: <ManageMedia handleChange={handleChange} />,
